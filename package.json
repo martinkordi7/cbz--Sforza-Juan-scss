@@ -1,0 +1,23 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bootstrap.bundle.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinkordi7/proyecto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinkordi7/proyecto/issues"
+  },
+  "homepage": "https://github.com/martinkordi7/proyecto#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

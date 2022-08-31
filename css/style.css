@@ -1,0 +1,354 @@
+ /* INDEX */
+body{
+  background-color: white;
+}
+ .logo{
+  color:black;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 70px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  }
+.whap {
+ display: flex;
+ position: fixed;
+ right: 2%;
+ height:32px;
+  }
+  .perfil{
+    display: flex;
+ position: fixed;
+ right: 5%;
+ height:27px;
+
+  }
+  
+.buscar{
+  display: flex;
+  align-items: center;
+  justify-content:center
+  
+ }
+ .buscar{
+  width: 100px;
+  padding-right: 50px;
+  padding-left: 190px;
+  margin-left: 100px;
+  padding-top: 128px;
+
+}
+nav{
+  
+ display: flex;
+ justify-items: center;
+ height: 150px;
+}
+
+.menu {
+  list-style: none;
+
+  margin: auto;
+  background-color:white;
+  padding: 0%;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.menuinicio{
+  text-decoration: none;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+background-color: black;
+  
+
+}
+.menuinicio a{
+  text-decoration: none;
+  color: white;
+}
+.avisos{
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-bottom: 5px;
+  }
+.destacados{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 100px;
+}
+.sale{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 80px;
+}
+.menuderegistro{
+  color: white;
+  background-color: black;
+  margin-top: 100px;
+}
+.registro{
+  font-size:30px;
+}
+.subregistro{
+  font-size: 15px;
+}
+.emailregistro{
+  height: 30px;
+  padding-right: 50px;
+  margin-left: 60%;
+  border-radius: 5px;
+  }
+  .cont{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+
+  }
+.contactos{
+ padding-right: 50%;
+ margin-left: 50px;
+}
+/*ACCESORIOS*/
+.accesorios{
+  color: black;
+  margin-left: 20px;
+}
+.containerlistas{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  width: 20%;
+  border: solid black;
+  border-radius: 1rem;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 30px;
+}
+.listacces{
+  color: black;
+  border-color: black;
+ list-style: none;
+ font-size: 20px;
+ text-decoration: none;
+}
+/* QUIENES SOMOS*/
+.quienesomos{
+  color: black;
+  text-align: center;
+  padding-right:120px;
+  padding-top: 40px;
+  margin-bottom: 40px
+}
+.explic{
+  color: black;
+  text-justify: center;
+  display: flex;
+  font-size: 20px;
+}
+
+/*IMAGENES*/
+/*IMAGENES INDEX*/
+.imagen1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 2fr);
+  
+ 
+}
+.img1{
+
+  border-radius: 10px;
+  width: 60%;
+  
+}
+
+.containerdest{
+  width: 100%;
+ display:grid;
+ grid-template-columns: repeat(3, 2fr);
+ justify-content: center;
+ align-items: center;
+ justify-items: center;
+ margin-top: 70px;
+  
+}
+.imgdest {
+ margin-left: 40px;
+ border-radius: 5px;
+ opacity: 0.6;
+}
+.imgdest:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+img{
+  border-radius: 1rem;
+}
+.containersale{
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(3, 2fr);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 70px;
+   
+}
+
+.imgsale{
+ border-radius: 5px;
+}
+ 
+/* imagenes de las secciones*/
+.imgnavbar{
+  width: 100%;
+display: grid;
+grid-template-columns: repeat(3, 2fr);
+
+gap: 50px;
+padding-top: 80px;
+justify-content: center;
+align-items: center;
+justify-items: center;
+flex-direction: column;
+}
+.imgnav:hover{
+ margin-top: 30px;
+transform:scale(1.4) ;
+}
+
+/* medias queries*/
+@media screen and (min-width: 1200px){
+.logo{ margin-right: 20px;}
+}
+  
+@media screen and (max-width: 768px){
+.whap{ 
+  right: 11%;
+}
+.perfil{
+  right: 15%;
+}
+.logo{
+  padding-left: 70px;
+}
+.buscar{
+  padding-left: 0px;
+}
+.buscar{
+  margin-left: 50px;
+}
+.menu{
+  width: 100%;
+}
+.imgdest{
+  margin-left: 0px;
+  opacity: 1;
+}
+/*media q de prendas*/
+.containerlistas{
+  width: 30%;
+}
+.imgnavbar{
+  grid-template-columns: repeat(2, 2fr);
+}
+
+
+}
+@media screen and (max-width: 480px)
+{
+  .whap{
+right: 7%;
+  }
+  .perfil{
+    right: 12%;
+  }
+  .logo{
+    margin-top: 50px;
+  }
+  .logo{
+    font-size: 50px;
+    right: 6%;
+  }
+  
+  .menu{
+    padding-left: 95px;
+    display: grid;
+  
+  }
+  .menuinicio{
+    background-color: white;
+  }
+  .imagen1{
+   
+    background-color: white;
+    width: 600px;
+    grid-template-columns: 1fr;
+    padding-left: 40px;
+  }
+  .avisos{
+    width: 150%;
+    margin-left: 20px;
+  }
+  .destacados{
+    padding-left: 200px;
+    justify-content: center;
+  }
+  .containerdest{
+   grid-template-columns: 1fr;
+    width: 95%;
+  }
+  .imgdest{
+    width: 9%;
+    margin-top: 30px;
+  }
+  .sale{
+    margin-left: 200px;
+    justify-content: center;
+  }
+  .containersale{
+    grid-template-columns: 1fr;
+  }
+  .menuderegistro{
+    width: 135%;
+  }
+/*media q de prendas*/
+.containerlistas{
+  width: 40%;
+  margin-left: 30px;
+}
+.imgnavbar{
+  grid-template-columns: repeat(1, 2fr);
+  margin-left: 100px;
+}
+}
+
+/* bootstrap*/
+.container-fluid{
+  position: fixed;
+  padding-left: 300px;
+  background-color: white;
+  right: 7%;
+
+}
+
+.navbar-brand{
+  color: black;
+}
+.nav-link {
+  color: black;
+}
+.nav-link{
+  color: black;
+}
